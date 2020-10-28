@@ -29,13 +29,7 @@ BOOL CChildFrame::OnIdle()
 	return FALSE;
 }
 
-LRESULT CChildFrame::OnDestroy(UINT /*uMsg*/, WPARAM /*wParam*/, LPARAM /*lParam*/, BOOL& bHandled)
-{
 
-	bHandled = FALSE;
-	
-	return 1;
-}
 LRESULT CChildFrame::OnCreate(UINT /*uMsg*/, WPARAM /*wParam*/, LPARAM /*lParam*/, BOOL& bHandled)
 {
 	m_hWndClient = m_view.Create(m_hWndClient, rcDefault, NULL, 

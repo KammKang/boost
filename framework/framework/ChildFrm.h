@@ -4,7 +4,7 @@
 
 #pragma once
 
-class CChildFrame : public CMDIChildWindowImpl<CChildFrame>, public CUpdateUI<CChildFrame>,
+class CChildFrame : public CMDIChildWindowImpl<CChildFrame>,
 	public CMessageFilter, public CIdleHandler
 {
 public:
@@ -29,6 +29,7 @@ public:
 //	LRESULT NotifyHandler(int /*idCtrl*/, LPNMHDR /*pnmh*/, BOOL& /*bHandled*/)
 
 	LRESULT OnCreate(UINT /*uMsg*/, WPARAM /*wParam*/, LPARAM /*lParam*/, BOOL& bHandled);
-	LRESULT OnDestroy(UINT /*uMsg*/, WPARAM /*wParam*/, LPARAM /*lParam*/, BOOL& bHandled);
+
+	
 	LRESULT OnForwardMsg(UINT /*uMsg*/, WPARAM /*wParam*/, LPARAM lParam, BOOL& /*bHandled*/);
 };
