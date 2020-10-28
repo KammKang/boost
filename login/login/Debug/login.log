@@ -1,0 +1,5 @@
+﻿  login.cpp
+d:\visual studio\samples\mdidocvw\resource.h(5): warning C4005: “IDR_MAINFRAME”: 宏重定义
+  d:\visual studio\git\boost\login\login\resource.h(6): note: 参见“IDR_MAINFRAME”的前一个定义
+  login.vcxproj -> D:\visual studio\git\boost\login\Debug\login.exe
+  login.vcxproj -> D:\visual studio\git\boost\login\Debug\login.pdb (Full PDB)
